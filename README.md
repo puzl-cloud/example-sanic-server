@@ -6,7 +6,8 @@ Test HTTP server to use in a Docker container with Python pre-installed (example
 
 - Python 3.6 or higher
 - `requirements.txt`
-All requirements are installing in `run.sh` file, which should be set as a Docker entry point.
+
+All the requirements are installing in `run.sh` file, which should be set as a Docker entry point.
 
 ## Run
 
