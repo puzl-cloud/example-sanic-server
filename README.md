@@ -42,7 +42,7 @@ You can define your own port, if needed.
 
 ## Use
 
-After your pod is up and running in Puzl Kubernetes cluster, you can access it by a given external port and host.
+After your pod is up and running in Puzl Kubernetes cluster, you can access it by a given external port and host name.
 
 ### Routes
 
