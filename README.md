@@ -45,7 +45,7 @@ You can define your own port, if needed.
 
 After your pod is up and running in Puzl Kubernetes cluster, you can access it by a given external port and host name.
 
-`http://host:port/swagger`
+`http://host:external_port/swagger`
 
 ### Routes
 
