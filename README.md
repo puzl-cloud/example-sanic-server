@@ -17,8 +17,14 @@ Choose any Docker image, contains needed version of Python.
 
 ### Git repository
 To use your repo from Github without ssh inside a Docker container, [generate](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) and use personal access token.
+
+For Github:
 ```
 https://a72db2630fa574a11445c16e6824617e4c3d8017@github.com/puzl-ee/example-sanic-server.git
+```
+To clone repo from Gitlab, use this format:
+```
+https://{USER}:{TOKEN}@gitlab.com/repository_path.git
 ```
 
 ### Entry point
