@@ -2,7 +2,7 @@ from sanic.blueprints import Blueprint
 from sanic.response import json
 from sanic_openapi import doc
 
-from models import Health
+from src.models import Health
 
 
 health_blueprint = Blueprint('health', '/health')

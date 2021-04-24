@@ -1,7 +1,7 @@
 from sanic import Sanic
 from sanic_openapi import swagger_blueprint
-from blueprints.health import health_blueprint
-from utils import load_env_to_sanic_app
+from src.blueprints.health import health_blueprint
+from src.utils import load_env_to_sanic_app
 
 import os
 import logging.config
@@ -13,6 +13,7 @@ LOG_LEVEL = os.getenv("LOG_LEVEL", "INFO")
 #
 # Init sanic
 app = Sanic(__name__)
+app.config["API_SCHEMES"] = ["http", "https"]
 logging.info("Service started")
 
 #
@@ -25,8 +26,8 @@ app.blueprint(health_blueprint)
 
 #
 # App config
-app.config.API_VERSION = '0.1.0'
-app.config.API_TITLE = 'Test sanic server'
+app.config.API_VERSION = '0.2.0'
+app.config.API_TITLE = 'Example HTTP/HTTPS server'
 app.config.API_PRODUCES_CONTENT_TYPES = ['application/json']
 
 #
