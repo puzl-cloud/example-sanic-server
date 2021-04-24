@@ -1,19 +1,19 @@
-## What is it
+# What is it
 
-Test HTTP server to use in a Docker container with Python pre-installed (example for [Puzl cloud](https://puzl.ee)). Server simply runs Swagger API on `1616` port.
+Simple HTTP/HTTPS server to use in a Docker container with Python pre-installed for test proposals (example for [Puzl cloud](https://puzl.ee)). Server runs Swagger API on `1616` port.
 
-## Requirements
+# Requirements
 
 - Python 3.6 or higher
 - `requirements.txt`
 
 All the requirements are installing in `run.sh` file, which should be set as a Docker entry point.
 
-## Run
-
+# Using in puzl.ee dashboard
+## Run 
 ### Docker image
 
-Choose any Docker image, contains needed version of Python.
+Choose any Docker image, contains the needed version of Python.
 
 ### Git repository
 To use your repo from Github without ssh inside a Docker container, [generate](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) and use personal access token.
@@ -49,7 +49,7 @@ You can define your own port, if needed.
 
 ## Use
 
-After your pod is up and running in Puzl Kubernetes cluster, you can access it by a given external port and host name.
+After your pod is up and running in Puzl's Kubernetes cluster, you can access it by a given external port and host name.
 
 `http://host:external_port/swagger`
 
