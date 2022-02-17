@@ -1,2 +1,2 @@
-sanic==19.12.2
+sanic==20.12.6
 sanic_openapi==0.6.0
