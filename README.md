@@ -1,6 +1,6 @@
 # What is it
 
-Simple HTTP/HTTPS server to use in a Docker container with Python pre-installed for test proposals (example for [Puzl cloud](https://puzl.ee)). Server runs Swagger API on `1616` port.
+Simple HTTP/HTTPS server to use in a Docker container with Python pre-installed for test proposals (example for [Puzl cloud](https://puzl.cloud)). Server runs Swagger API on `1616` port.
 
 # Requirements
 
@@ -9,7 +9,7 @@ Simple HTTP/HTTPS server to use in a Docker container with Python pre-installed 
 
 All the requirements are installing in `run.sh` file, which should be set as a Docker entry point.
 
-# Using in puzl.ee dashboard
+# Using in puzl.cloud dashboard
 ## Run 
 ### Docker image
 
